@@ -26,7 +26,7 @@ export const validator: FieldValidationFunctionSync<CustomArgs> = ({
   message = defaultMessage,
   customArgs = DEFAULT_PARAMS,
 }) => {
-  const { date } = customArgs as CustomArgs;
+  const { date } = customArgs;
 
   if (!(value instanceof Date) || !(date instanceof Date)) {
     throw new TypeError(BAD_PARAMETER);
