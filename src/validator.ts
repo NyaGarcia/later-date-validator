@@ -3,7 +3,6 @@ import {
   parseMessageWithCustomArgs,
 } from '@lemoncode/fonk';
 
-// TODO: Add validator type
 const VALIDATOR_TYPE = 'LATER_DATE';
 
 export interface CustomArgs {
